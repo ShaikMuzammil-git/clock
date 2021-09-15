@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(93, 83, 70);
+}
+#title {
+  margin-top: 0;
+  margin-bottom: -8vmin;
+  margin-left: 11vmin;
+  font-size: 5vmin;
+  font-family: fantasy;
+}
+
+#clockContainer {
+  position: relative;
+  margin: auto;
+  height: 80vh;
+  width: 90vw;
+  background: url("tower.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 10vh;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: bottom;
+  background: rgb(28, 32, 28);
+}
+
+#hour {
+  height: 7vw;
+  width: 0.9%;
+
+  top: 12vw;
+  left: 73.5%;
+}
+#minute {
+  height: 9vw;
+  width: 0.7vw;
+
+  top: 10vw;
+  left: 73.5%;
+}
+#second {
+  height: 10vw;
+  width: 0.5vw;
+
+  top: 9vw;
+  left: 73.5%;
+}
